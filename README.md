@@ -1,6 +1,14 @@
 # Exercise 01 — Node Registry (FastAPI + PostgreSQL + Docker Compose)
 
-## Grading
+> **Sistemas Distribuidos y Programación Paralela — UNLu 2026**
+>
+> Este ejercicio forma parte de la evaluación continua de la materia. A lo largo de la cursada vas a ir resolviendo ejercicios prácticos que se corrigen automáticamente. Cada ejercicio construye sobre el anterior y refuerza conceptos que vas a necesitar para los TPs: APIs REST, Docker, Compose, Kubernetes, mensajería, etc.
+>
+> El objetivo no es solo que "pase los tests" sino que entiendas lo que estás construyendo. Los tests validan el resultado, pero la comprensión la construís vos.
+
+---
+
+## Evaluación automática
 
 This exercise has **automated testing**. When you push to your fork, a grader will run hidden tests and post a ✅/❌ comment on your latest commit within 10 minutes.
 
