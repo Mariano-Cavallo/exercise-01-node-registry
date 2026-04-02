@@ -1,7 +1,7 @@
 # TODO: Write your Dockerfile
 #
 # Requirements:
-# - Base image: python:3.11-slim (pin version, no :latest)
+# - Base image: python:3.14-slim (pin version, no :latest)
 # - Install dependencies from requirements.txt
 # - Run as a non-root user
 # - EXPOSE 8080

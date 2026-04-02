@@ -130,7 +130,7 @@ Table: `nodes`
 ## Docker requirements
 
 ### Dockerfile
-- Base image: `python:3.11-slim` (pin the version — no `:latest`)
+- Base image: `python:3.14-slim` (pin the version — no `:latest`)
 - Install dependencies from `requirements.txt`
 - Run as a **non-root** user
 - `EXPOSE 8080`
@@ -138,7 +138,7 @@ Table: `nodes`
 
 ### docker-compose.yml
 - **Two services**: `api` and `db`
-- `db`: PostgreSQL (use `postgres:16-alpine`)
+- `db`: PostgreSQL (use `postgres:17-alpine`)
 - `api`: your Dockerfile, depends on `db`
 - `api` must expose port `8080` on the host
 - Use environment variables for DB connection (not hardcoded)
